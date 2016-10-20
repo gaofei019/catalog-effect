@@ -1,0 +1,180 @@
+html{
+    background-image:url(about:blank);background-attachment:fixed;
+}
+#sideCatalog #sideCatalog-sidebar .sideCatalog-sidebar-bottom {
+    bottom: 0;
+}
+#sideCatalog #sideCatalog-sidebar .sideCatalog-sidebar-top, #sideCatalog #sideCatalog-sidebar .sideCatalog-sidebar-bottom {
+    width:6px;
+    height:6px;
+    border:2px solid #c9c9c9;
+    left: -5px;
+    overflow: hidden;
+    position: absolute;
+    border-radius:50%;
+    background:#f7f7f7;
+}
+
+#sideCatalog #sideCatalog-sidebar .sideCatalog-sidebar-top {
+    cursor: pointer;
+    top: 0;
+}
+
+#sideCatalog-catalog {
+    height: 230px;
+    top: 18px;
+    overflow: hidden;
+    padding-left: 22px;
+    position: relative;
+    width:208px;
+}
+#sideCatalog-catalog dl {
+    position: relative;
+}
+
+#sideCatalog span.sideCatalog-index1 {
+    color: #999999;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+#sideCatalog .sideCatalog-item1 a {
+    color: #555555;
+    font-weight: bold;
+}
+#sideCatalog .sideCatalog-item1 a, #sideCatalog .sideCatalog-item2 a ,#sideCatalog .sideCatalog-item3 a{
+    font-size:16px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:block;
+}
+.sideCatalog-dot {
+    cursor: pointer;
+    width:4px;
+    height: 4px;
+    border:2px solid #f7f7f7;
+    border-radius:50%;
+    left: -20px;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    background:#ccc;
+}
+
+#sideCatalog .sideCatalog-item2 span.sideCatalog-dot {
+}
+#sideCatalog dd:hover a,#sideCatalog .highlight a{
+    color:#72beff;
+}
+
+#sideCatalog .highlight span.sideCatalog-dot {
+    background: url(../../img/wushi/ws_arti_icon.png) left center no-repeat;
+    background-position: 0 0;
+    width:16px;
+    height: 8px;
+    left: -23px;
+    top: 5px;
+    border-radius:0;
+    border:none;
+}
+
+#sideCatalog #sideCatalog-sidebar {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #d2d2d2;
+    border-color: -moz-use-text-color #d2d2d2;
+    border-image: none;
+    border-left: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+    border-style: none solid;
+    border-width: 0 1px;
+    height: 258px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+#sideCatalog-updown {
+    bottom: 160px;
+    height: 50px;
+    position: absolute;
+    right: 10px;
+    width: 22px;
+    z-index: 10;
+}
+
+#sideCatalog-up {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.sideCatalog-up-disable {
+    background: url(../../img/wushi/slideNav_icon.png) no-repeat scroll -32px 0;
+}
+
+#sideCatalog-down {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+}
+.sideCatalog-down-enable {
+    background: url(../../img/wushi/slideNav_icon.png) no-repeat scroll 0 -25px;
+}
+#sideCatalog {
+    height: 260px;
+    left: 10px;
+    line-height: 19px;
+    overflow: hidden;
+    position: relative;
+    width: 230px;
+}
+
+.sideCatalog-item2 {
+    padding-left: 10px;
+}
+.sideCatalog-item2 a{
+    color:#999;
+}
+.sideCatalog-item3{
+    padding-left:20px;
+}
+.sideCatalog-item3 a{
+    color:#ccc;
+}
+.sideCatalog-item1, .sideCatalog-item2, .sideCatalog-item3 {
+    margin: 0 0 10px;
+    position: relative;
+    line-height:18px;
+}
+.sideCatalog-down-disable {
+    background: url(../../img/wushi/slideNav_icon.png) no-repeat scroll -32px -25px;
+}
+.sideCatalog-up-enable {
+    background: url(../../img/wushi/slideNav_icon.png) no-repeat scroll 0 0;
+}
+
+#sideCatalog-catalog dl dd:hover{
+    background-color: #f6f6f6;
+}
+
+.anchor-1, .anchor-2{
+    display: block;
+    position: relative;
+}
+
+.slide {
+    width: 230px;
+    float: right;
+    margin-right:-219px;
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.slide.show{
+    opacity:1;
+    filter:alpha(opacity=100);
+}

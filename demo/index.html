@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>赛氪</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="Shortcut Icon" href="">
+    <link rel="apple-touch-icon-precomposed" href="http://sta.wushi.saikr.com/img/wushi/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="http://sta.wushi.saikr.com/css/wushi/top.min.css">
+    <link rel="stylesheet" type="text/css" href="http://sta.wushi.saikr.com/css/wushi/news.min.css">
+    <link rel="stylesheet" href="./css/slide-nav.css">
+</head>
+<body>
+    <!--body-wrap-->
+    <div class="body-wrap">
+        <div class="body-main">
+            <!-- 侧边导航 -->
+            <!--<div class="ws-side-nav-box">
+                <div class="ws-side-nav-con">
+                    <div class="ws-nav-poi ws-nav-poi-1"><span></span></div>
+                    <div class="ws-nav-poi ws-nav-poi-2"><span></span></div>
+                    <div class="ws-nav">
+                        <a class="ws-nav-l ws-nav-l-1" href="#cc2"><span><i></i></span>1.概述</a>
+                        <a class="ws-nav-l ws-nav-l-2" href="#cc3"><span><i></i></span>1.1五层模型</a>
+                        <a class="ws-nav-l ws-nav-l-2" href="#cc4"><span><i></i></span>1.2层与协议</a>
+                        <a class="ws-nav-l ws-nav-l-3" href="#cc5"><span><i></i></span>1.2.1瞎编.</a>
+                        <a class="ws-nav-l ws-nav-l-3" href="#cc6"><span><i></i></span>1.2.2瞎编.赛事</a>
+                        <a class="ws-nav-l ws-nav-l-1" href="#cc7"><span><i></i></span>2.实体层</a>
+                        <a class="ws-nav-l ws-nav-l-1" href="#cc7"><span><i></i></span>3.链接层</a>
+                        <a class="ws-nav-l ws-nav-l-2" href="#cc7"><span><i></i></span>3.1定义</a>
+                        <a class="ws-nav-l ws-nav-l-2" href="#cc7"><span><i></i></span>3.2以太网协议</a>
+                        <a class="ws-nav-l ws-nav-l-2" href="#cc7"><span><i></i></span>3.3广播</a>
+                    </div>
+                </div>
+            </div>-->
+            <!-- 用户反馈 -->
+            <div class="feedback-btn">反馈《
+                <div class="feedback-box">
+                    <form>
+                        <div class="feedback-line clearfix">
+                            <div class="feedback-textarea">
+                                <label class="">请输入反馈，我们将为您不断改进</label>
+                                <textarea></textarea>
+                            </div>
+                        </div>
+                        <div class="feedback-line clearfix">
+                            <div class="feedback-input">
+                                <label class="">请输入手机号/邮箱</label>
+                                <input type="text" value="">
+                            </div>
+                        </div>
+                        <div class="feedback-line feedback-sub-btn-line clearfix">
+                            <input type="submit" class="feedback-sub-btn" value="提&nbsp;交" id="">
+                        </div>
+                    </form>
+                    <div class="close-btn">×</div>
+
+                </div>
+            </div>
+
+            <!-- 返回顶部 -->
+            <div class="ws-up ws-arti-icon"></div>
+            <!-- nav -->
+            <div class="nav">
+                <div class="common-box nav-con clearfix">
+                    <a href="javascript:;" class="fl n-logo" title="吾师"></a>
+                    <div class="fl nav-serch-box">
+                        <div class="common-input">
+                            <label class="common-input-label">搜索文章...</label>
+                            <input type="text" id="" name="">
+                        </div>
+                        <div class="nav-serch-btn"><i class="news-global-icon"></i></div>
+                    </div>
+                    <ul class="nav-serch-box-tip" style="display:none;">
+                        <li>
+                            <a href="javascript:;">知乎问题最长可以有多少字？如果我想要提一个很长的问题，可以无限打字吗？</a>
+                            <span class="tip-author">空间科技与技术·小蓉蓉</span>
+                            <span class="tip-read">8738阅读</span>
+                        </li>
+                        <li>
+                            <a href="javascript:;">知乎问题最长可以有多少字？</a>
+                            <span class="tip-author">空间科技与技术·小蓉蓉</span>
+                            <span class="tip-read">8738阅读</span>
+                        </li>
+                    </ul>
+                    <div class="fr n-user-box">
+                            <div class="fr n-hover n-user-pn clearfix">
+                                <img src="http://i1.letvimg.com/user/201307/31/126064391375259372.M.jpg" class="fl n-user-pic">
+                                <span class="fl n-user-name">小蓉蓉</span>
+                                <ul class="n-user-pn-tip" style="">
+                                    <li>
+                                        <a href="javascript:;"><i class="news-global-icon n-user-home"></i>我的主页</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;"><i class="news-global-icon n-user-set"></i>设置</a>
+                                    </li>
+                                    <li class="no-b">
+                                        <a href="javascript:;"><i class="news-global-icon n-user-quit"></i>退出</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="fr n-hover n-user-news active">
+                                <span class="n-user-news-mail news-global-icon"><i></i></span>
+                            </a>
+                            <a href="javascript:;" title="写文章" class="fr n-hover n-user-vie arti"><i class="news-global-icon"></i>写文章</a>
+                            <a href="javascript:;" title="草稿箱" class="fr n-hover n-user-vie draft"><i class="news-global-icon"></i>草稿箱</a>
+                    </div>
+                </div>
+            </div>
+    <!--content-->
+            <div class="arti-con" id="artiCon">
+                <div class="common-box arti-box clearfix">
+                    <h2 class="arti-focus-tit">互联网协议入门</h2>
+                    <div class="arti-focus-cho">
+                        <span class="gray">计算机网络</span>
+                        <span>互联网协议</span>
+                        <span>TCP/IP</span>
+                        <span>编程协议</span>
+                    </div>
+                    <div class="arti-focus-infono">
+                        <span class="">字数2000</a>
+                        <span>阅读400</span>
+                        <span>评论20</span>
+                        <span>赞200</span>
+                        <span>收藏15</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-con">
+                <div class="common-box text-con-box clearfix">
+                    <div class="text-con-right" id="textConRight">
+                        <div class="text-author">
+                            <a class="author-head" href="javascript:;"><img src="http://cdn.duitang.com/uploads/item/201505/24/20150524132912_4u5KS.thumb.224_0.jpeg"></a>
+                            <div class="author-name">小蓉蓉</div>
+                            <div class="author-pos"><span>作者</span></div>
+                            <div class="author-stat">写了9篇文章，14456字，获得了899个赞</div>
+                            <div class="author-oper-box">
+                                <a class="author-oper author-oper-1" href="javascript:;">修改文章</a>
+                                <a class="author-oper author-oper-2" href="javascript:;">删除文章</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide" id="slideNav">
+                        <div id="sideToolbar" style="position:absolute;">
+                            <div id="sideCatalog" class="sideCatalogBg" style="visibility: visible;">
+                                <div id="sideCatalog-sidebar">
+                                    <div class="sideCatalog-sidebar-top"></div>
+                                    <div class="sideCatalog-sidebar-bottom"></div>
+                                </div>
+                                <div id="sideCatalog-updown" style="visibility: hidden;">
+                                    <div id="sideCatalog-up" class="sideCatalog-up-disable" title="向上翻页"></div>
+                                    <div id="sideCatalog-down" class="sideCatalog-down-enable" title="向下翻页"></div>
+                                </div>
+                                <div id="sideCatalog-catalog">
+                                    <dl style="width:175px;zoom:1">
+                                        <dd id="sideToolbar-item-0-1" class="sideCatalog-item1 highlight"><a class="nslog:1026" onclick="return false;" title="part1" href="#c1">part1</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-2" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part2" href="#c2">part2</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-2-1" class="sideCatalog-item2">
+                                            <a class="nslog:1026" onclick="return false;" title="part2-1" href="#c3">part2-1</a><span class="sideCatalog-dot"></span></dd>
+                                            <dd id="sideToolbar-item-0-2-2" class="sideCatalog-item2"><a class="nslog:1026" onclick="return false;" title="part2-2" href="#c4">part4-2</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c5">part5</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c6">part6</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c7">part7</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c8">part8</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item1">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c9">part9</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part3" href="#c10">part10</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part11" href="#c11">part11</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part12" href="#c12">part12</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part11" href="#c13">part13</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part14" href="#c14">part14</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part11" href="#c15">part15</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part11" href="#c16">part16</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                        <dd id="sideToolbar-item-0-3" class="sideCatalog-item3">
+                                            <a class="nslog:1026" onclick="return false;" title="part17" href="#c17">part17</a><span class="sideCatalog-dot"></span>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <!--<a id="sideCatalogBtn" class="" style="visibility: visible;" href="javascript:void(0);"></a>
+                            <a id="sideToolbar-up" style="visibility: visible;" title="返回顶部" href="javascript:void(0)"></a>-->
+                        </div>
+                    </div>
+                    <div class="common-box700 text-box clearfix" id="textBox">
+                        <div class="text-main">
+                            <h2 class="headline-1" id="c1">
+                                <a class="anchor-1" name="1"></a>
+                                <span class="headline-1-index">1</span>
+                                <span class="headline-content">part1</span>
+                            </h2>
+
+                            <div class="para">
+                                content1,content1
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            <h2 class="headline-1" id="c2">
+                                <a class="anchor-1" name="2"></a>
+                                <span class="headline-2-index">2</span>
+                                <span class="headline-content">part2</span>
+                            </h2>
+
+                            <div class="para">
+                                content2,content2
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            <h3 class="headline-2" id="c3">
+                                <a class="anchor-2" name="2-1"></a>
+                                <!--<span class="headline-2-index">2-1</span>-->
+                                <span class="headline-content">part2-1</span>
+                            </h3>
+
+                            <div class="para">
+                                content2-1,content2-1
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            <h3 class="headline-2" id="c4">
+                                <a class="anchor-2" name="2-2"></a>
+                                <!--<span class="headline-1-index">2-2</span>-->
+                                <span class="headline-content">part2-2</span>
+                            </h3>
+
+                            <div class="para">
+                                content2-2,content2-2
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            <h2 class="headline-1" id="c5">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            
+                            <h2 class="headline-1" id="c6">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+                            <h2 class="headline-1" id="c7">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c8">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c9">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c10">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part3</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c11">
+                                <a class="anchor-1" name="3"></a>
+                                <span class="headline-1-index">3</span>
+                                <span class="headline-content">part11</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c12">
+                                <a class="anchor-1" name="12"></a>
+                                <span class="headline-1-index">12</span>
+                                <span class="headline-content">part12</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c13">
+                                <a class="anchor-1" name="13"></a>
+                                <span class="headline-1-index">13</span>
+                                <span class="headline-content">part13</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c14">
+                                <a class="anchor-1" name="14"></a>
+                                <span class="headline-1-index">14</span>
+                                <span class="headline-content">part14</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c15">
+                                <a class="anchor-1" name="15"></a>
+                                <span class="headline-1-index">15</span>
+                                <span class="headline-content">part15</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c16">
+                                <a class="anchor-1" name="16"></a>
+                                <span class="headline-1-index">16</span>
+                                <span class="headline-content">part16</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c17">
+                                <a class="anchor-1" name="17"></a>
+                                <span class="headline-1-index">17</span>
+                                <span class="headline-content">part17</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                            <h2 class="headline-1" id="c18">
+                                <a class="anchor-1" name="18"></a>
+                                <span class="headline-1-index">18</span>
+                                <span class="headline-content">part18</span>
+                            </h2>
+
+                            <div class="para3">
+                                content,content
+                                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="common-box700 text-authorize-box" id="authorRizeBox">
+                        <p class="text-authorize">本文由 小蓉蓉 创作，采用 <a href="javascript:;" class="udl">知识共享“署名一相同方式共享3.0中国大陆”许可协议</a> 授权转载、引用需联系作者，署名且注明出处。</p>
+                    </div>
+                    
+                    <div class="common-box700 text-oper-box">
+                        <div class="text-oper clearfix">
+                            <span><i class="ws-arti-icon pub-no"></i>发表于15小时前</span>
+                            <a class="active" href="javascript:;"><i class="ws-arti-icon praise"></i>点赞<em class="js_num">39655</em></a>
+                            <a class="active" href="javascript:;"><i class="ws-arti-icon collection"></i>收藏<em class="js_num">39</em></a>
+                            <a class="active" href="javascript:;"><i class="ws-arti-icon t-comment"></i>评论<em class="js_num">2</em></a>
+                            <a class="active" href="javascript:;"><i class="ws-arti-icon thank"></i>感谢作者</a>
+                        </div>
+                        <form action="" class="text-oper-input-box clearfix" style="display:block">
+                            <div class="text-oper-input clearfix">
+                                <label>在这里写下您的评论...</label>
+                                <textarea>
+                                </textarea>
+                                <span class="text-lt active">在这里写下您的评论</span>
+                            </div>
+                            <input type="submit" class="fr text-sub" value="发表评论">
+                        </form>
+                        <div class="ws-arti-comment-box">
+                            <div class="ws-arti-comment-sort">共 3 条评论 （ <a class="active" href="javascript:;">按时间正序</a>· <a href="javascript:;">按时间倒序</a>· <a href="javascript:;">按赞同排序</a> ）</div>
+                            <ul class="ws-arti-comment-list">
+                                <li class="ws-arti-comment-li clearfix">
+                                    <div class="fl">
+                                        <a class="ws-arti-comment-head"  href="javascript:;"><img src="http://cdn.duitang.com/uploads/item/201505/24/20150524132912_4u5KS.thumb.224_0.jpeg" alt=""></a>
+                                    </div>
+                                    <div class="fl comment-con">
+                                        <div class="comment-con-tit">阮一峰</div>
+                                        <div class="comment-con-motto">敏于事而慎于言，就有道而正焉。</div>
+                                        <p class="comment-con-p">那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。</p>
+                                        <div class="comment-con-p-oper">
+                                            <span class="comment-con-time">2015-9-30 21:34:27</span>
+                                            <a href="javascript:;" class="comment-con-agree active"><i class="ws-arti-icon praise"></i>赞同1</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ws-arti-comment-li clearfix">
+                                    <div class="fl">
+                                        <a class="ws-arti-comment-head"  href="javascript:;"><img src="http://cdn.duitang.com/uploads/item/201505/24/20150524132912_4u5KS.thumb.224_0.jpeg" alt=""></a>
+                                    </div>
+                                    <div class="fl comment-con">
+                                        <div class="comment-con-tit">阮一峰</div>
+                                        <div class="comment-con-motto">敏于事而慎于言，就有道而正焉。</div>
+                                        <p class="comment-con-p">那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。</p>
+                                        <div class="comment-con-p-oper">
+                                            <span class="comment-con-time">2015-9-30 21:34:27</span>
+                                            <a href="javascript:;" class="comment-con-agree"><i class="ws-arti-icon praise"></i>赞同1</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="ws-arti-comment-li clearfix">
+                                    <div class="fl">
+                                        <a class="ws-arti-comment-head"  href="javascript:;"><img src="http://cdn.duitang.com/uploads/item/201505/24/20150524132912_4u5KS.thumb.224_0.jpeg" alt=""></a>
+                                        <div class="author-pos"><span>作者</span></div>
+                                    </div>
+                                    <div class="fl comment-con">
+                                        <div class="comment-con-tit">阮一峰</div>
+                                        <div class="comment-con-motto">敏于事而慎于言，就有道而正焉。</div>
+                                        <p class="comment-con-p">那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。那些关于人生的路途，始终是一人的追逐。</p>
+                                        <div class="comment-con-p-oper">
+                                            <span class="comment-con-time">2015-9-30 21:34:27</span>
+                                            <a href="javascript:;" class="comment-con-agree"><i class="ws-arti-icon praise no"></i>赞同0</a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="loading-img-box show"></div>
+                            <div class="load-more-btn-box">
+                                <div class="guyu-box">
+                                    <p>文章，经国之大业，不朽之盛事。</p>
+                                    <p class="tar">——曹丕</p>
+                                </div>
+                                <input type="button" class="load-more-btn" value="点击加载更多">
+                            </div>                  
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <ul class="common-box footer-con clearfix">
+            <li class="footer-conli">
+                <h2 class="conli-h2">关于吾师<span>About</span></h2>
+                <p class="conli-p">吾师是面向学习者的知识社区。我们致力于打造优秀见解、解决方案的聚集地，人人贡献自己擅长的知识点讲解，众人优势互补，形成覆盖全学科的优质内容。</p>
+            </li>
+            <li class="footer-conli">
+                <h2 class="conli-h2">邀请码申请<span>Apply</span></h2>
+                <p class="conli-p">如果您有撰写技术博客的习惯；</br>如果您对一些知识有独到的见解；</br></br>来<a href="javascript:;" class="join-us">加入我们</a>吧！</p>
+            </li>
+            <li class="footer-conli">
+                <h2 class="conli-h2">联系我们<span>Contact</span></h2>
+                <p class="conli-p conli-p-b">吾师迫切的希望与您分享有关知识的一切！</p>
+                    <div class="contact">
+                        <p class="contact-way"><i class="contact-way-img global-icon icon-mail"></i>wushi@saikr.com</p>
+                    </div>  
+            </li>
+        </ul>
+        <div class="copyright-box" id="copyRightBox">
+            <span>COPYRIGHT</span>
+            <span>@赛氪</span>
+            <span>2013-2015 </span>
+            <a href="javascript:;" target="_blank" rel="nofollow">京ICP备14013810号-2</a>
+        </div>
+    </div>
+    <!-- 遮罩、弹出层 -->
+    <div class="lg-mask"></div>
+    <div class="delete-box">
+        <h2 class="delete-box-tit">删除文章</h2>
+        <div class="delete-con">
+            <p>确定要删除文章《互联网协议的入门》吗？该操作无法恢复，请陛下三思啊～</p>
+            <div class="delete-btn-box clearfix">
+                <a class="fr ws-common-btn black-btn" href="javascript:;">确认</a>
+                <a class="fr ws-common-btn white-btn" href="javascript:;">取消</a>
+            </div>
+        </div>
+    </div>
+    <div class="delete-box">
+        <h2 class="delete-box-tit">删除文章</h2>
+        <div class="delete-con">
+            <p>是否同时删除草稿箱中的《文章标题》</p>
+            <div class="delete-btn-box clearfix">
+              
+                <a class="fr ws-common-btn black-btn" href="javascript:;" id="promptConfirmBtn">确认</a>
+                <a class="fr ws-common-btn white-btn js_pop_close" href="javascript:;">取消</a>
+            </div>
+        </div>
+    </div>
+    <div id="promptMessageBox" class="delete-box js_pop_box">
+        <h2 class="delete-box-tit" id="promptMessageTitle">删除文章</h2>
+        <div class="delete-con">
+            <p id="promptMessage">确定要删除文章《互联网协议的入门》吗？该操作无法恢复，请陛下三思啊～</p>
+            <div class="delete-btn-box clearfix">
+                <a class="fr ws-common-btn black-btn" href="javascript:;" id="promptConfirmBtn">确认</a>
+                <a class="fr ws-common-btn white-btn js_pop_close" href="javascript:;">取消</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="http://cdn3.saikr.com/js/jquery-1.10.2.min.js?v=201605101110"></script>
+<script src="./js/slideNav.js"></script>
